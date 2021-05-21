@@ -1,0 +1,232 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+*{
+  /* margin:10px; */
+  /* this will add margin to all icons also so instead this adding margin to button  */
+}
+button{
+  margin: 5px;
+}
+/*============================================================================================*/
+
+.block_btn_red{
+  padding: 7px;
+  padding-top: 9px;
+  font-size:medium;
+  background-color: #EB4F34;
+  border-radius: 5px;
+  border-color: red;
+  border-bottom:  #EB4F34 solid 4px;
+  font-weight: 550;
+  color:whitesmoke;
+  transition:all 0.2s;
+}
+.block_btn_red:hover{
+  border-bottom: #B83E28 solid 4px;
+}
+.block_btn_red:active{
+  background-color: #D64E2F;
+  border-bottom:  #D64E2F solid 4px;
+  border-color: #D64E2F;
+}
+
+/*===========================================================================================*/
+
+.block_btn_green{
+  padding: 7px;
+  margin: 4px;
+  padding-top: 9px;
+  font-size:medium;
+  background-color: #46C230;
+  border-radius: 5px;
+  border-color:#46C230;
+  border-bottom:  #46C230 solid 4px;
+  font-weight: 550;
+  color:whitesmoke;
+  transition:all 0.2s;
+}
+.block_btn_green:hover{
+  border-bottom: #2B8F16 solid 4px;
+}
+.block_btn_green:active{
+  background-color: #348F24;
+  border-bottom:  #348F24 solid 4px;
+  border-color: #348F24;
+}
+
+/*============================================================================================*/
+
+.block_btn_orange{
+  padding: 7px;
+  margin: 4px;
+  padding-top: 9px;
+  font-size:medium;
+  background-color:#FF9900;
+  border-radius: 5px;
+  border-color:#FF9900;
+  border-bottom:#FF9900 solid 4px;
+  font-weight: 550;
+  color:whitesmoke;
+  transition:all 0.2s;
+}
+.block_btn_orange:hover{
+  border-bottom: #C27400 solid 4px;
+}
+.block_btn_orange:active{
+  background-color: #C45500;
+  border-bottom:  #C45500 solid 4px;
+  border-color: #C45500;
+}
+
+/*===========================================================================================*/
+
+.block_btn_blue{
+  height: 36px;
+  padding: 0px 16px;
+  background-color: #1A73E8;
+  border:  #1A73E8 solid 0px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: .875rem;
+  letter-spacing: .25px;
+  color:#fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  vertical-align: middle;
+  cursor: pointer;
+  transition:all 0.2s;
+}
+.block_btn_blue:hover{
+  box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%), 0 1px 3px 1px rgb(26 115 232 / 30%);
+  background-color: #297be6;
+  outline: 1px solid transparent;
+  border: none;
+}
+.block_btn_blue:active{
+  box-shadow: none;
+  background-color: #1a73e8;
+    border: none;
+}
+
+/*============================================================================================*/
+
+.fab_btn_circle{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    padding-top: 8px;
+    font-size: 12px;
+    line-height: 1.428571429;
+    border-radius: 15px;
+    border-color: white;
+    border-width: 0px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.fab_btn_circle:active{
+  box-shadow: -2px -2px 1px 0.5px rgba(0, 0, 0, 0.0);
+  background-color: #D6D6D6;
+}
+.fab_btn_circle:hover{
+  transform: scale(1.1);
+}
+
+/* use this to make a large floating action button  */
+.btn-lg {
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 25px;
+}
+
+/*============================================================================================*/
+
+.symbol_btn_round{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 1px 0;
+  font-size: 20px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  border-color: white;
+  border-width: 0px;
+  background-color: white;
+}
+.symbol_btn_round:hover{
+  background-color: #efefef;
+}
+.symbol_btn_round:active{
+  background-color: #d6d6d6;
+}
+
+/*============================================================================================*/
+
+.symbol_btn_square{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 1px 0;
+  font-size: 20px;
+  line-height: 1.428571429;
+  border-radius: 8px;
+  border-color: white;
+  border-width: 0px;
+  background-color: white;
+}
+.symbol_btn_square:hover{
+  background-color: #efefef;
+}
+.symbol_btn_square:active{
+  background-color: #d6d6d6;
+}
+
+/*============================================================================================*/
+
+.dull_btn_round{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 1px 0;
+  font-size: 20px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+  border-color: white;
+  border-width: 0px;
+  background-color: white;
+  color:#939393;   
+}
+.dull_btn_round:hover{
+  background-color: #efefef;
+  color:black;
+}
+.dull_btn_round:active{
+  background-color: #d6d6d6;
+}
+
+/*============================================================================================*/
+
+.dull_btn_square{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 1px 0;
+  font-size: 20px;
+  line-height: 1.428571429;
+  border-radius: 8px;
+  border-color: white;
+  border-width: 0px;
+  background-color: white;
+  color:#939393;   
+}
+.dull_btn_square:hover{
+  background-color: #efefef;
+  color:black;
+}
+.dull_btn_square:active{
+  background-color: #d6d6d6;
+}
+
+
+
+
