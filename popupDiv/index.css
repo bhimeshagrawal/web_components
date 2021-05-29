@@ -1,0 +1,109 @@
+.titleBar{
+    min-height: 20px;
+    background-color: #c9c9c9;
+}
+button{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.popupBox{
+    width: 500px;
+    height: 190px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+    margin-right: 20px;
+}
+.popupContent{
+    margin: 0px auto;
+    width: 500px;
+    height: auto;
+    position: relative;
+    display: flex;
+    /* background-color: #ccc; */
+}
+.textBody{
+    margin-top: 20px;
+    margin-right: auto;
+}
+.messageText{
+    font-size: .875rem;
+
+    margin: 0px 5px 0px 0px;
+    font-family:Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+    max-width: 320px;
+}
+.infoText{
+    margin-top: 5px;
+    font-size: .875rem;
+    max-width: 320px;
+    color:#7D7d7d;
+    font-family:Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+
+}
+.buttonBar{
+    display: flex;
+    justify-content: flex-end;
+    max-height: 30px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.threeD{
+    border-radius: 5px;
+background: #e0e0e0;
+box-shadow:  2px 2px 6px #bebebe,
+             -2px -2px 6px #ffffff;
+}
+.dullBtn{
+    background-color: white;
+    border-radius: 4px;
+    border:  #cdcdcd solid 0px;
+    letter-spacing: .25px;
+    font-size: .875rem;
+    vertical-align: middle;
+    cursor: pointer;
+    transition:all 0.2s;
+    outline: 1px solid transparent;
+
+}
+.dullBtn:hover{
+    outline: 1px solid rgb(200,200,200);
+    border: none;
+    box-shadow: 0 1px 2px 0 rgb(200 200 200 / 45%), 0 1px 3px 1px rgb(200 200 200 / 30%);
+}
+.dullBtn:active{
+    border:none;
+    box-shadow: none;
+    transform: scale(0.95);
+
+}
+.block_btn_blue{
+    height: 24px;
+    padding: 0px 16px;
+    background-color: #1A73E8;
+    border:  #1A73E8 solid 0px;
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: .875rem;
+    letter-spacing: .25px;
+    color:#fff;
+    font-family:Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    vertical-align: middle;
+    cursor: pointer;
+    transition:all 0.2s;
+  }
+  .block_btn_blue:hover{
+    box-shadow: 0 1px 2px 0 rgb(26 115 232 / 45%), 0 1px 3px 1px rgb(26 115 232 / 30%);
+    background-color: #297be6;
+    outline: 1px solid transparent;
+    border: none;
+  }
+  .block_btn_blue:active{
+    box-shadow: none;
+    background-color: #1a73e8;
+      border: none;
+      transform: scale(0.95);
+  }
